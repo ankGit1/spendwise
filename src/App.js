@@ -21,10 +21,10 @@ const router = createBrowserRouter(
     <Route>
       <Route path="/" element={<Layout />}>
         <Route path="" element={<DashHome />} />
-        <Route path="/bills" element={<Bills />} />
-        <Route path="/expenses" element={<Expenses />} />
-        <Route path="/transactions" element={<Transaction />} />
-        <Route path="/stats" element={<Stats />} />
+        <Route path="bills" element={<Bills />} />
+        <Route path="expenses" element={<Expenses />} />
+        <Route path="transactions" element={<Transaction />} />
+        <Route path="stats" element={<Stats />} />
       </Route>
     </Route>
   )

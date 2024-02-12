@@ -15,6 +15,7 @@ To get started with Spendwise, follow these steps:
 
 The project structure for Spendwise is organized as follows:
 
+```
 spendwise/
 ├── src/
 │ ├── components/
@@ -28,5 +29,7 @@ spendwise/
 │ ├── index.js
 │ └── ...
 └── ...
+```
+
 src/: This directory contains all the source code for the Spendwise application.
 src/components/: This directory contains all the React components used in the application, including the charts, Sidebar, Dashboard, Bills and Payments, and more.

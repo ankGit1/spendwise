@@ -13,13 +13,13 @@ function LeftSide() {
       <Link to="/">
         <div className="linkDiv py-1 fw-semibold">Dashboard</div>
       </Link>
-      <Link to="/bills">
+      <Link to="bills">
         <div className="linkDiv py-1 fw-semibold">Bills and Payments</div>
       </Link>
-      <Link to="/expenses">
+      <Link to="expenses">
         <div className="linkDiv py-1 fw-semibold">Expenses</div>
       </Link>
-      <Link to="/stats">
+      <Link to="stats">
         <div className="linkDiv py-1 fw-semibold">My Stats</div>
       </Link>
     </div>
