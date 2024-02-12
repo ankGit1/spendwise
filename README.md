@@ -1,34 +1,32 @@
-# Getting Started with Create React App
+# Spendwise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Spendwise is a React application designed to help users manage their spending efficiently. With Spendwise, users can track their expenses, set budgets, and analyze their spending habits to make informed financial decisions.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with Spendwise, follow these steps:
 
-### `npm start`
+1. clone the repository
+2. cd client
+3. npm install
+4. npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project structure for Spendwise is organized as follows:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-# structure-
-
-all folders present in
+spendwise/
+├── src/
+│ ├── components/
+│ │ ├── charts
+│ │ ├── data
+│ │ ├── layout
+│ │ ├── leftSideComp
+│ │ ├── rightSideComp
+│ │ └── ...
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+└── ...
+src/: This directory contains all the source code for the Spendwise application.
+src/components/: This directory contains all the React components used in the application, including the charts, Sidebar, Dashboard, Bills and Payments, and more.

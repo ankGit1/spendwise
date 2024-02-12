@@ -57,7 +57,7 @@ export const reduxSlice = createSlice({
           state.bal = balance;
           localStorage.setItem("balance", balance);
           let catIndex = state.cats.findIndex(
-            (c) => c.cat == action.payload.cat
+            (c) => c.cat === action.payload.cat
           );
           state.cats = state.cats.map((cat, index) => {
             if (index === catIndex) {

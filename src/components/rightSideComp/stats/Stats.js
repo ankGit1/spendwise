@@ -33,7 +33,7 @@ function Stats() {
   };
 
   const showItem = (c, i) => {
-    setEdit({ cat: c.cat, target: c.target, spend: c.spend });
+    setEdit({ cat: c.cat, target: c.target, spend: c.spend || "0" });
     setIndex(i);
     setPop(true);
   };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 function ExpenseDetails() {
   const cats = useSelector((state) => state.info.cats);
