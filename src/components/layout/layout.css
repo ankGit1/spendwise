@@ -1,0 +1,27 @@
+.layout_dashboardDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 90vh;
+  padding: 20px;
+  background-color: #80808036;
+}
+.left_side {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.right_side {
+  width: 80%;
+}
+@media screen and (max-width: 500px) {
+  .leftSide_topDiv {
+    flex-direction: column;
+  }
+  .left_side {
+    width: 100%;
+  }
+  .right_side {
+    width: 100%;
+  }
+}

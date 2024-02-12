@@ -1,0 +1,70 @@
+.dashHome_topDiv {
+  display: flex;
+  flex-direction: row;
+}
+.dashHome_infoDiv {
+  flex: 2;
+  padding: 0 5px;
+}
+.dashHome_historyDiv {
+  flex: 1;
+  height: 420px;
+  overflow-y: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+/* ..............info comp............................ */
+.info_grid_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_grid {
+  width: 200px;
+  margin: 0 5px 5px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 5px;
+}
+.info_grid:nth-child(1) {
+  background: rgb(255 130 130);
+}
+.info_grid:nth-child(2) {
+  background: rgb(128 247 217);
+}
+.info_grid:nth-child(3) {
+  background: rgb(231 250 116);
+}
+
+/* ........................history comp....................... */
+
+.history_titleDiv {
+  text-align: center;
+}
+.historyTemp_topDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 5px;
+  background: #8884d8;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .dashHome_topDiv {
+    flex-direction: column;
+  }
+  .dashHome_infoDiv {
+    padding: 10px 0;
+  }
+  .info_grid_container {
+    flex-direction: column;
+  }
+  .info_grid {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

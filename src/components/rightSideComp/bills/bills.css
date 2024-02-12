@@ -1,0 +1,70 @@
+.bills_topDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 10px;
+}
+.bills_desk {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  height: 420px;
+  background: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+.bills_desk form {
+  width: 80%;
+}
+.bills_desk form input,
+.bills_desk form select {
+  width: 100%;
+  height: 35px;
+  padding: 2px 5px;
+}
+.type_credit {
+  color: green;
+}
+.type_debit {
+  color: red;
+}
+.bills_btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_button {
+  border: none;
+  background: #f43131;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.bills_bal {
+  background-color: rgb(244 160 0);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.bills_imgDiv {
+  flex: 1;
+}
+.bills_imgDiv img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .bills_topDiv {
+    flex-direction: column;
+    padding: 0;
+    margin: 5px 0;
+  }
+  .bills_desk {
+    padding: 20px 0;
+  }
+  .bills_desk form {
+    width: 85%;
+  }
+}

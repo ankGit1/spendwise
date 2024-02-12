@@ -1,0 +1,14 @@
+.expenses_topDiv {
+  height: 420px;
+  overflow-y: auto;
+}
+
+/* ..................expenseDetails................ */
+
+.exDetails_target_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

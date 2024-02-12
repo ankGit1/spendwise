@@ -1,0 +1,19 @@
+.leftSide_topDiv {
+  background-color: white;
+}
+.leftSide_userDiv {
+  text-align: center;
+}
+.leftSide_userDiv img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.leftSide_topDiv a {
+  text-decoration: none;
+  color: inherit;
+}
+.linkDiv {
+  margin: 12px;
+}

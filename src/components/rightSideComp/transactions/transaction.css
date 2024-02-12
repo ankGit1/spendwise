@@ -1,0 +1,15 @@
+.expenses_topDiv {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: white;
+}
+.table_div {
+  height: 365px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .expenses_topDiv {
+    margin: 10px 0;
+  }
+}

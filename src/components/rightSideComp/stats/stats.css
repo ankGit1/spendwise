@@ -1,0 +1,91 @@
+.stats_topDiv {
+  height: 420px;
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+}
+.stats_categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 10px;
+  background-color: #8884d8;
+  border-radius: 5px;
+  color: white;
+}
+.stats_categoryP {
+  width: 25%;
+}
+.stats_edit_deleteBtn button {
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 60px;
+  border: none;
+  padding: 5px;
+  color: white;
+}
+.stats_edit_deleteBtn button:nth-child(1) {
+  background-color: rgb(17 202 156);
+}
+.stats_edit_deleteBtn button:nth-child(2) {
+  background-color: rgb(252 36 36);
+}
+.stats_form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.addCategory_btnDiv {
+  text-align: end;
+}
+.stats_popup {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(231 227 237);
+  border-radius: 5px;
+}
+.popup_btnDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stats_popup input {
+  width: auto;
+  margin: 10px;
+  height: 35px;
+  background: #d5cfde;
+  border: none;
+  padding: 5px;
+}
+.addCatBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffc107;
+}
+
+@media screen and (max-width: 500px) {
+  .stats_topDiv {
+    margin: 10px 0;
+  }
+  .stats_form {
+    flex-direction: column;
+  }
+  .stats_form input {
+    width: 260px;
+    margin: 0;
+  }
+  .stats_popup {
+    width: 80%;
+  }
+}
